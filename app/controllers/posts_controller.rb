@@ -49,12 +49,6 @@ class PostsController < ApplicationController
     end
   end
 
-  def create
-
-    "This will show when you try to create a page using post from postman"
-
-  end
-
   def destroy
     @post.destroy
     respond_to do |format|
